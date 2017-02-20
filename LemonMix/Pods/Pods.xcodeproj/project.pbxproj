@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EE1B89B46A42BD26A60DB832661A63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		06C52C512BD5591A05AF82DBBB9A15CE /* NSString+LKLocalStr.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10FED32FA66CF9C3222AF0E5B7C2F0 /* NSString+LKLocalStr.m */; };
+		0DD9C87475EE92690AEF56C9C25D1162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		1713C9AE297FCB221578C76F71E8CCC9 /* LKUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71756CF71A8A56864CAFE005A27BF24C /* LKUINavigationController.m */; };
+		17F1D86E5203CEA79C396D6C8F4C9D9F /* LKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C61C54AD31A3D85FC97F56FC6A70B216 /* LKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279A1C979ED9D2A11DD04AC98C720BF2 /* LKLinkageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEB305028AB33CE5876A711F53581 /* LKLinkageView.m */; };
+		33D31B547C5EF3C5A2491C324F5BC0BD /* NSString+LK.h in Headers */ = {isa = PBXBuildFile; fileRef = F6987CEE971869481D5AF7C38AA83BE0 /* NSString+LK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B21745D208E0D2704B5BA153E9F9168 /* LKUINavigationTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5062AF3F326BB9C7355871C8C5BC778 /* LKUINavigationTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4368816FB4BCC60CDE2A34B6099A72BA /* LemonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 226879032A1FB343E737F123B612F7B4 /* LemonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43736048D5B933A7503D516BBFB908F5 /* LKInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = A604F89308BA0A106D27DACD4149F1FE /* LKInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4427DA07CEBD8997154330CE6F4026D9 /* LKUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C81500CF2DC37BA6BBA502332381813 /* LKUIViewController.m */; };
+		45BC6384864AD623D4071F70365F467B /* LKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E983870D62EDB5A115A4B415C65BEF8C /* LKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481EFC65DE098035B577A451BD275BE4 /* LKLinkageColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = B9552D7AAD3374947F2023609ADBF2A0 /* LKLinkageColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492F7083CD5DC47E57E3258B479C3DEE /* UIView+LKGestureListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C354FB471490013566630640B10920 /* UIView+LKGestureListener.m */; };
+		4F54056F78B178DEEC2BB4831C934585 /* UINavigationBar+LK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7369EC996246176848A0A34C115A89FF /* UINavigationBar+LK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54E40E9E9D3839608CA0C42FCC6545ED /* NSDictionary+LK.m in Sources */ = {isa = PBXBuildFile; fileRef = E33371786C427F4F45A4D0AC4832EF16 /* NSDictionary+LK.m */; };
+		571439BB2F85495A69602FEE2DB416F3 /* LKFreeCtrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 078D54A44B372EBEFB7008107E62EC79 /* LKFreeCtrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59D8F085721637C51EFB422C3227B555 /* LKUUIDTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C88C22B5626205AAD8DFC527D5EEF5D /* LKUUIDTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60EE7333E675F9E4B0FB10BD1E9460FB /* LKLinkageColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B7B3E9D46FAB1BE3B4D1F4990D6CD /* LKLinkageColumn.m */; };
+		63D5754D98A75D5B94BBC9C354061675 /* LKUIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 96533FCE73EFF0B6B2F5FD05B4D70A67 /* LKUIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68116F13ABDD7BDC8F5E10346AFB21E5 /* LKLinkageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F05E38134B7B724D5179327629B2DF /* LKLinkageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A64D78971F2A846A32F1DB17903734 /* NSString+LK.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB85561F1FD1A38992EC631ED363AFD /* NSString+LK.m */; };
+		767ED07E2297812480314F983276DF5B /* NSString+LKLocalStr.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4014B138C933B8C7DDCE01556C4EC /* NSString+LKLocalStr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BFC4C6F1A036EDE788DB169FC19EE30 /* LKBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D904C03FD3637E08E1BA65419F026E6 /* LKBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5075AAA9D3D1E676855694B2509C7F /* Pods-LemonMixSamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 215F2235CA30327F4727CCB658B41AB1 /* Pods-LemonMixSamples-dummy.m */; };
+		7EDF78529E3C69DB81C9082728FF5CFB /* LKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B76FE0F804F8B4126D160F177EAFFB6C /* LKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DE6FF8317E1F1C3396039EE72A71FE /* LKUINavigationTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1569B1124FF6E92A63ED1216424560 /* LKUINavigationTabBarController.m */; };
+		830CBD1924F54D749289075B558696C8 /* LKFreeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A313096ED1F54259BF4770175B3B04 /* LKFreeCtrl.m */; };
+		841081A94488FA077BCDAC2EF0AE12FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		842FB9CC2BEECD859B9AB19E0C087D36 /* LKModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E041011D9BE4A3AA05FF9261B3ECCA64 /* LKModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92159DAEA59070381E71DC707BAA4F44 /* LKConfigTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A5D3322899E5AF9F2F5B2A4DEFACE1 /* LKConfigTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9223F8422A3029DB7DD7EB9A3C8EB6B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		97CB456B98A2A493213BDCB30A90C531 /* UIColor+LKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8008D7F8AEF669C9E34D776E5C0EAB0 /* UIColor+LKColor.m */; };
+		990711274685AE92FB4E421AB22FBA9D /* LKLinkageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D9DB58EAD2270A9142969342C8DC1 /* LKLinkageItem.m */; };
+		A0481BE18FC2935B411FE9598594672E /* LKLinkageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F334E82A1E4C220E2D25DD7527799221 /* LKLinkageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A27BCFBF099229C78B2E8872E13D55B9 /* LemonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A16A4F3D95858B98DA3CF91636928506 /* LemonKit.m */; };
+		A779F6A15B9957D65B80F2045576AEDD /* LKUUIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F5B7A0A610B8DAC085E93063BFE801 /* LKUUIDTool.m */; };
+		B7CD60C13B57C88C5297DEEDED4493B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+		BCF58B6C672A0CC4D9372FA3A2DB6CDC /* UINavigationBar+LK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F05A92CABC9147224FCCC87F9BABC /* UINavigationBar+LK.m */; };
+		BD79D6F04256EE670E8E876E13936E33 /* LemonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D3E8D31A12089017C80563970A1633 /* LemonKit-dummy.m */; };
+		BEEAEABE5E6C3C9E2CEBCEB1FA90403F /* LKLinkageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEB236534F801D6F8A498B3133AEA8E /* LKLinkageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF402F8ACAE9F75C05430E3D5A98C69F /* LKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 744E70658B0E03A1A2BF9AFC0111DB81 /* LKCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB5D8217516C0234F523A89A2D9477C /* LKSizeConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 91941C50BE56BA800B1B32BCA639CA40 /* LKSizeConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD632FFACD6D8FCC9ACD81DF1E171243 /* LKLogConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 040C045B7ABBD8B8AAF1312F1CD00086 /* LKLogConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD7E920EFB21C2BCA789639FDFF467F6 /* UIView+LKGestureListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3DC49CBF6FC9FB4D51527FE4CC7E47 /* UIView+LKGestureListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE545D08AB5BF6264B47348F40B9E859 /* Pods-LemonMix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13BA5A17D3FBE39718B06F947A4203 /* Pods-LemonMix-dummy.m */; };
+		D380821BD92A333C7FA612273D493BD4 /* LKViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 85165549AF40CECC031EA54A039D797B /* LKViewExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA5880E5E57978AE257716EBF15CE249 /* LKConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 9508FB76E494A3D8862CDF0031BD9443 /* LKConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E478CB45A9A2F82144537003F0F61AB3 /* LKImageConst.h in Headers */ = {isa = PBXBuildFile; fileRef = BD685ADE4B1D517DA8A3B61553E04602 /* LKImageConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A7C6F76C7F972C58E7C43F3409744C /* LKUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51840673040E6E5442C0B356DE162CC0 /* LKUITabBarController.m */; };
+		E5D7F9CBB2ACEDEC3A103E72F72D89C7 /* LKUITabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = A769D79EFC8FE5673D0E8F05D20B16FC /* LKUITabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69C369C538C32E692D1FD43860FC536 /* LKInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7800B648FB20E6FCB87A7253C3D8BF /* LKInstance.m */; };
+		E76E0CBDE71CFE9901DFC0728632D15D /* NSDictionary+LK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C91E0A231988B550C29ECC640DF5BB3 /* NSDictionary+LK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE4A892CE97A9A30AF8DC77EAAF62990 /* LKConfigTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54EE5AC6D2AC48BC0B50149C3ED7D8 /* LKConfigTool.m */; };
+		F1113F9A24830AA5297B183BC49C88C1 /* LKUINavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D3FAE8E86A535A2F19837222CBC874C1 /* LKUINavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F66134B6F49B141731E37ACAF2D2F43C /* LKLinkageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56214E14386124B7CEB845F637FBBC4A /* LKLinkageCell.m */; };
+		F9CF1F9BA0EA51CAFFB4BE545AA962DF /* UIColor+LKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = FE931B21AA2E4AF9F948B074AC1EEC8B /* UIColor+LKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA17D5FC5AAD239AD4FF543C5536451 /* LKNameConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E48DE57E892168176FD805733C03E5F /* LKNameConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0193A45A055E2B3A48070E071D8185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322C549234A49EF692B8D684D5482A9A;
+			remoteInfo = LemonKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040C045B7ABBD8B8AAF1312F1CD00086 /* LKLogConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLogConst.h; path = LemonKit/LemonKit/LKConst/LKLogConst.h; sourceTree = "<group>"; };
+		078D54A44B372EBEFB7008107E62EC79 /* LKFreeCtrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKFreeCtrl.h; path = LemonKit/LemonKit/LKCore/LKModule/LKFreeCtrl.h; sourceTree = "<group>"; };
+		08EEEB305028AB33CE5876A711F53581 /* LKLinkageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLinkageView.m; path = LemonKit/LemonKit/LKViewExt/LKLinkageView.m; sourceTree = "<group>"; };
+		10B89807F12239A27FDEBDA0F50B8938 /* Pods-LemonMixSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonMixSamples.debug.xcconfig"; sourceTree = "<group>"; };
+		1A0C0EB8C5B9FBCF04ACEE52F9E8246A /* LemonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LemonKit-prefix.pch"; sourceTree = "<group>"; };
+		215F2235CA30327F4727CCB658B41AB1 /* Pods-LemonMixSamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LemonMixSamples-dummy.m"; sourceTree = "<group>"; };
+		226879032A1FB343E737F123B612F7B4 /* LemonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LemonKit.h; path = LemonKit/LemonKit/LemonKit.h; sourceTree = "<group>"; };
+		2E54EE5AC6D2AC48BC0B50149C3ED7D8 /* LKConfigTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKConfigTool.m; path = LemonKit/LemonKit/LKTools/LKConfigTool.m; sourceTree = "<group>"; };
+		2F45DC005ACE9095EC5B25E85FAFD696 /* Pods-LemonMix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonMix.debug.xcconfig"; sourceTree = "<group>"; };
+		3C88C22B5626205AAD8DFC527D5EEF5D /* LKUUIDTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUUIDTool.h; path = LemonKit/LemonKit/LKTools/LKUUIDTool.h; sourceTree = "<group>"; };
+		3D7B7B3E9D46FAB1BE3B4D1F4990D6CD /* LKLinkageColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLinkageColumn.m; path = LemonKit/LemonKit/LKViewExt/LKLinkageColumn.m; sourceTree = "<group>"; };
+		43A313096ED1F54259BF4770175B3B04 /* LKFreeCtrl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKFreeCtrl.m; path = LemonKit/LemonKit/LKCore/LKModule/LKFreeCtrl.m; sourceTree = "<group>"; };
+		4C91E0A231988B550C29ECC640DF5BB3 /* NSDictionary+LK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LK.h"; path = "LemonKit/LemonKit/LKCategory/NSDictionary+LK.h"; sourceTree = "<group>"; };
+		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4E48DE57E892168176FD805733C03E5F /* LKNameConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKNameConst.h; path = LemonKit/LemonKit/LKConst/LKNameConst.h; sourceTree = "<group>"; };
+		4F9D9DB58EAD2270A9142969342C8DC1 /* LKLinkageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLinkageItem.m; path = LemonKit/LemonKit/LKModel/LKLinkageItem.m; sourceTree = "<group>"; };
+		4FEB236534F801D6F8A498B3133AEA8E /* LKLinkageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLinkageView.h; path = LemonKit/LemonKit/LKViewExt/LKLinkageView.h; sourceTree = "<group>"; };
+		50D3E8D31A12089017C80563970A1633 /* LemonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LemonKit-dummy.m"; sourceTree = "<group>"; };
+		51840673040E6E5442C0B356DE162CC0 /* LKUITabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUITabBarController.m; path = LemonKit/LemonKit/LKBase/LKUITabBarController.m; sourceTree = "<group>"; };
+		56214E14386124B7CEB845F637FBBC4A /* LKLinkageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLinkageCell.m; path = LemonKit/LemonKit/LKViewExt/LKLinkageCell.m; sourceTree = "<group>"; };
+		5D904C03FD3637E08E1BA65419F026E6 /* LKBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKBase.h; path = LemonKit/LemonKit/LKBase/LKBase.h; sourceTree = "<group>"; };
+		669291DC5097CA5F9FDA6A8DC78E68D3 /* Pods-LemonMixSamples-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LemonMixSamples-resources.sh"; sourceTree = "<group>"; };
+		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C6F05A92CABC9147224FCCC87F9BABC /* UINavigationBar+LK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+LK.m"; path = "LemonKit/LemonKit/LKCategory/UINavigationBar+LK.m"; sourceTree = "<group>"; };
+		6FF4014B138C933B8C7DDCE01556C4EC /* NSString+LKLocalStr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LKLocalStr.h"; path = "LemonKit/LemonKit/LKCategory/NSString+LKLocalStr.h"; sourceTree = "<group>"; };
+		71756CF71A8A56864CAFE005A27BF24C /* LKUINavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUINavigationController.m; path = LemonKit/LemonKit/LKBase/LKUINavigationController.m; sourceTree = "<group>"; };
+		71C069CFB212A79F88EBAB87A16DFE2D /* Pods-LemonMix-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LemonMix-frameworks.sh"; sourceTree = "<group>"; };
+		7369EC996246176848A0A34C115A89FF /* UINavigationBar+LK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+LK.h"; path = "LemonKit/LemonKit/LKCategory/UINavigationBar+LK.h"; sourceTree = "<group>"; };
+		744E70658B0E03A1A2BF9AFC0111DB81 /* LKCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKCategory.h; path = LemonKit/LemonKit/LKCategory/LKCategory.h; sourceTree = "<group>"; };
+		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79F05E38134B7B724D5179327629B2DF /* LKLinkageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLinkageCell.h; path = LemonKit/LemonKit/LKViewExt/LKLinkageCell.h; sourceTree = "<group>"; };
+		7ED04991EA9CA96308BCE43CAABBEF7F /* Pods-LemonMix-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LemonMix-resources.sh"; sourceTree = "<group>"; };
+		81A9EBFA16ACF3EEDEC3D4B0DF80DD01 /* LemonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LemonKit.xcconfig; sourceTree = "<group>"; };
+		8477673DAB2C22BAE5A30967D9D075AA /* Pods-LemonMix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonMix.release.xcconfig"; sourceTree = "<group>"; };
+		85165549AF40CECC031EA54A039D797B /* LKViewExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKViewExt.h; path = LemonKit/LemonKit/LKViewExt/LKViewExt.h; sourceTree = "<group>"; };
+		8A7800B648FB20E6FCB87A7253C3D8BF /* LKInstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKInstance.m; path = LemonKit/LemonKit/LKCore/LKModule/LKInstance.m; sourceTree = "<group>"; };
+		8C3DC49CBF6FC9FB4D51527FE4CC7E47 /* UIView+LKGestureListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LKGestureListener.h"; path = "LemonKit/LemonKit/LKCategory/UIView+LKGestureListener.h"; sourceTree = "<group>"; };
+		91941C50BE56BA800B1B32BCA639CA40 /* LKSizeConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKSizeConst.h; path = LemonKit/LemonKit/LKConst/LKSizeConst.h; sourceTree = "<group>"; };
+		919B391DCF4966F1EC0479136F294B12 /* Pods-LemonMix-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LemonMix-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91E821DEB01DE95C3BE0DB1872ABAD7D /* Pods-LemonMixSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonMixSamples.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9508FB76E494A3D8862CDF0031BD9443 /* LKConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKConst.h; path = LemonKit/LemonKit/LKConst/LKConst.h; sourceTree = "<group>"; };
+		96533FCE73EFF0B6B2F5FD05B4D70A67 /* LKUIViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUIViewController.h; path = LemonKit/LemonKit/LKBase/LKUIViewController.h; sourceTree = "<group>"; };
+		99870A8DF455EC3FA62327B493E5E002 /* Pods-LemonMixSamples-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LemonMixSamples-frameworks.sh"; sourceTree = "<group>"; };
+		9C81500CF2DC37BA6BBA502332381813 /* LKUIViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUIViewController.m; path = LemonKit/LemonKit/LKBase/LKUIViewController.m; sourceTree = "<group>"; };
+		A16A4F3D95858B98DA3CF91636928506 /* LemonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LemonKit.m; path = LemonKit/LemonKit/LemonKit.m; sourceTree = "<group>"; };
+		A604F89308BA0A106D27DACD4149F1FE /* LKInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKInstance.h; path = LemonKit/LemonKit/LKCore/LKModule/LKInstance.h; sourceTree = "<group>"; };
+		A769D79EFC8FE5673D0E8F05D20B16FC /* LKUITabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUITabBarController.h; path = LemonKit/LemonKit/LKBase/LKUITabBarController.h; sourceTree = "<group>"; };
+		A9A6C9D80F48DA8A06E32A4176CF2211 /* Pods-LemonMix-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LemonMix-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5F5B7A0A610B8DAC085E93063BFE801 /* LKUUIDTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUUIDTool.m; path = LemonKit/LemonKit/LKTools/LKUUIDTool.m; sourceTree = "<group>"; };
+		B76FE0F804F8B4126D160F177EAFFB6C /* LKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKModel.h; path = LemonKit/LemonKit/LKModel/LKModel.h; sourceTree = "<group>"; };
+		B9552D7AAD3374947F2023609ADBF2A0 /* LKLinkageColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLinkageColumn.h; path = LemonKit/LemonKit/LKViewExt/LKLinkageColumn.h; sourceTree = "<group>"; };
+		BD685ADE4B1D517DA8A3B61553E04602 /* LKImageConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKImageConst.h; path = LemonKit/LemonKit/LKConst/LKImageConst.h; sourceTree = "<group>"; };
+		C25FF0A19184178F379E85450E4D1765 /* libLemonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLemonKit.a; path = libLemonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61C54AD31A3D85FC97F56FC6A70B216 /* LKCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKCore.h; path = LemonKit/LemonKit/LKCore/LKCore.h; sourceTree = "<group>"; };
+		CB13BA5A17D3FBE39718B06F947A4203 /* Pods-LemonMix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LemonMix-dummy.m"; sourceTree = "<group>"; };
+		CD10FED32FA66CF9C3222AF0E5B7C2F0 /* NSString+LKLocalStr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LKLocalStr.m"; path = "LemonKit/LemonKit/LKCategory/NSString+LKLocalStr.m"; sourceTree = "<group>"; };
+		CE1569B1124FF6E92A63ED1216424560 /* LKUINavigationTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUINavigationTabBarController.m; path = LemonKit/LemonKit/LKBase/LKUINavigationTabBarController.m; sourceTree = "<group>"; };
+		CFB85561F1FD1A38992EC631ED363AFD /* NSString+LK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LK.m"; path = "LemonKit/LemonKit/LKCategory/NSString+LK.m"; sourceTree = "<group>"; };
+		D3FAE8E86A535A2F19837222CBC874C1 /* LKUINavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUINavigationController.h; path = LemonKit/LemonKit/LKBase/LKUINavigationController.h; sourceTree = "<group>"; };
+		D8008D7F8AEF669C9E34D776E5C0EAB0 /* UIColor+LKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LKColor.m"; path = "LemonKit/LemonKit/LKCategory/UIColor+LKColor.m"; sourceTree = "<group>"; };
+		D9A5D3322899E5AF9F2F5B2A4DEFACE1 /* LKConfigTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKConfigTool.h; path = LemonKit/LemonKit/LKTools/LKConfigTool.h; sourceTree = "<group>"; };
+		E041011D9BE4A3AA05FF9261B3ECCA64 /* LKModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKModule.h; path = LemonKit/LemonKit/LKCore/LKModule/LKModule.h; sourceTree = "<group>"; };
+		E33371786C427F4F45A4D0AC4832EF16 /* NSDictionary+LK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LK.m"; path = "LemonKit/LemonKit/LKCategory/NSDictionary+LK.m"; sourceTree = "<group>"; };
+		E4D38947F2E9BE36B916673608BD10AE /* libPods-LemonMixSamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LemonMixSamples.a"; path = "libPods-LemonMixSamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E635C6A7B78DF9C5997AA144BFBB6880 /* Pods-LemonMixSamples-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LemonMixSamples-acknowledgements.plist"; sourceTree = "<group>"; };
+		E983870D62EDB5A115A4B415C65BEF8C /* LKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKTools.h; path = LemonKit/LemonKit/LKTools/LKTools.h; sourceTree = "<group>"; };
+		F334E82A1E4C220E2D25DD7527799221 /* LKLinkageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLinkageItem.h; path = LemonKit/LemonKit/LKModel/LKLinkageItem.h; sourceTree = "<group>"; };
+		F5062AF3F326BB9C7355871C8C5BC778 /* LKUINavigationTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUINavigationTabBarController.h; path = LemonKit/LemonKit/LKBase/LKUINavigationTabBarController.h; sourceTree = "<group>"; };
+		F5C2E32ABD03B035E0780F3D664FCC8B /* Pods-LemonMixSamples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LemonMixSamples-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6987CEE971869481D5AF7C38AA83BE0 /* NSString+LK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LK.h"; path = "LemonKit/LemonKit/LKCategory/NSString+LK.h"; sourceTree = "<group>"; };
+		F6C354FB471490013566630640B10920 /* UIView+LKGestureListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LKGestureListener.m"; path = "LemonKit/LemonKit/LKCategory/UIView+LKGestureListener.m"; sourceTree = "<group>"; };
+		F882FC42CD5B61A26A6F577E2FB04D4B /* libPods-LemonMix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LemonMix.a"; path = "libPods-LemonMix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE931B21AA2E4AF9F948B074AC1EEC8B /* UIColor+LKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LKColor.h"; path = "LemonKit/LemonKit/LKCategory/UIColor+LKColor.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A9778375C3A0772A1DFCD6B5CA3DE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CD60C13B57C88C5297DEEDED4493B9 /* CoreGraphics.framework in Frameworks */,
+				9223F8422A3029DB7DD7EB9A3C8EB6B3 /* Foundation.framework in Frameworks */,
+				02EE1B89B46A42BD26A60DB832661A63 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1EBE57BA77BD5051CCE7ED934716B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD9C87475EE92690AEF56C9C25D1162 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF03B79C800091D2779911A97040028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841081A94488FA077BCDAC2EF0AE12FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24518A08573CA29578730A9FB5D8A6A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C0ABAA304D6A9FFC84245169E3F653 /* LemonKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
+				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
+				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61566D22755A1592D20D85422F99B30E /* Pods-LemonMix */ = {
+			isa = PBXGroup;
+			children = (
+				919B391DCF4966F1EC0479136F294B12 /* Pods-LemonMix-acknowledgements.markdown */,
+				A9A6C9D80F48DA8A06E32A4176CF2211 /* Pods-LemonMix-acknowledgements.plist */,
+				CB13BA5A17D3FBE39718B06F947A4203 /* Pods-LemonMix-dummy.m */,
+				71C069CFB212A79F88EBAB87A16DFE2D /* Pods-LemonMix-frameworks.sh */,
+				7ED04991EA9CA96308BCE43CAABBEF7F /* Pods-LemonMix-resources.sh */,
+				2F45DC005ACE9095EC5B25E85FAFD696 /* Pods-LemonMix.debug.xcconfig */,
+				8477673DAB2C22BAE5A30967D9D075AA /* Pods-LemonMix.release.xcconfig */,
+			);
+			name = "Pods-LemonMix";
+			path = "Target Support Files/Pods-LemonMix";
+			sourceTree = "<group>";
+		};
+		71768ED8A007440844F59287EFEC3228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25FF0A19184178F379E85450E4D1765 /* libLemonKit.a */,
+				F882FC42CD5B61A26A6F577E2FB04D4B /* libPods-LemonMix.a */,
+				E4D38947F2E9BE36B916673608BD10AE /* libPods-LemonMixSamples.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				24518A08573CA29578730A9FB5D8A6A9 /* Pods */,
+				71768ED8A007440844F59287EFEC3228 /* Products */,
+				A1E8595E6623234E8DB7A600A10CD5AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95C0ABAA304D6A9FFC84245169E3F653 /* LemonKit */ = {
+			isa = PBXGroup;
+			children = (
+				226879032A1FB343E737F123B612F7B4 /* LemonKit.h */,
+				A16A4F3D95858B98DA3CF91636928506 /* LemonKit.m */,
+				5D904C03FD3637E08E1BA65419F026E6 /* LKBase.h */,
+				744E70658B0E03A1A2BF9AFC0111DB81 /* LKCategory.h */,
+				D9A5D3322899E5AF9F2F5B2A4DEFACE1 /* LKConfigTool.h */,
+				2E54EE5AC6D2AC48BC0B50149C3ED7D8 /* LKConfigTool.m */,
+				9508FB76E494A3D8862CDF0031BD9443 /* LKConst.h */,
+				C61C54AD31A3D85FC97F56FC6A70B216 /* LKCore.h */,
+				078D54A44B372EBEFB7008107E62EC79 /* LKFreeCtrl.h */,
+				43A313096ED1F54259BF4770175B3B04 /* LKFreeCtrl.m */,
+				BD685ADE4B1D517DA8A3B61553E04602 /* LKImageConst.h */,
+				A604F89308BA0A106D27DACD4149F1FE /* LKInstance.h */,
+				8A7800B648FB20E6FCB87A7253C3D8BF /* LKInstance.m */,
+				79F05E38134B7B724D5179327629B2DF /* LKLinkageCell.h */,
+				56214E14386124B7CEB845F637FBBC4A /* LKLinkageCell.m */,
+				B9552D7AAD3374947F2023609ADBF2A0 /* LKLinkageColumn.h */,
+				3D7B7B3E9D46FAB1BE3B4D1F4990D6CD /* LKLinkageColumn.m */,
+				F334E82A1E4C220E2D25DD7527799221 /* LKLinkageItem.h */,
+				4F9D9DB58EAD2270A9142969342C8DC1 /* LKLinkageItem.m */,
+				4FEB236534F801D6F8A498B3133AEA8E /* LKLinkageView.h */,
+				08EEEB305028AB33CE5876A711F53581 /* LKLinkageView.m */,
+				040C045B7ABBD8B8AAF1312F1CD00086 /* LKLogConst.h */,
+				B76FE0F804F8B4126D160F177EAFFB6C /* LKModel.h */,
+				E041011D9BE4A3AA05FF9261B3ECCA64 /* LKModule.h */,
+				4E48DE57E892168176FD805733C03E5F /* LKNameConst.h */,
+				91941C50BE56BA800B1B32BCA639CA40 /* LKSizeConst.h */,
+				E983870D62EDB5A115A4B415C65BEF8C /* LKTools.h */,
+				D3FAE8E86A535A2F19837222CBC874C1 /* LKUINavigationController.h */,
+				71756CF71A8A56864CAFE005A27BF24C /* LKUINavigationController.m */,
+				F5062AF3F326BB9C7355871C8C5BC778 /* LKUINavigationTabBarController.h */,
+				CE1569B1124FF6E92A63ED1216424560 /* LKUINavigationTabBarController.m */,
+				A769D79EFC8FE5673D0E8F05D20B16FC /* LKUITabBarController.h */,
+				51840673040E6E5442C0B356DE162CC0 /* LKUITabBarController.m */,
+				96533FCE73EFF0B6B2F5FD05B4D70A67 /* LKUIViewController.h */,
+				9C81500CF2DC37BA6BBA502332381813 /* LKUIViewController.m */,
+				3C88C22B5626205AAD8DFC527D5EEF5D /* LKUUIDTool.h */,
+				B5F5B7A0A610B8DAC085E93063BFE801 /* LKUUIDTool.m */,
+				85165549AF40CECC031EA54A039D797B /* LKViewExt.h */,
+				4C91E0A231988B550C29ECC640DF5BB3 /* NSDictionary+LK.h */,
+				E33371786C427F4F45A4D0AC4832EF16 /* NSDictionary+LK.m */,
+				F6987CEE971869481D5AF7C38AA83BE0 /* NSString+LK.h */,
+				CFB85561F1FD1A38992EC631ED363AFD /* NSString+LK.m */,
+				6FF4014B138C933B8C7DDCE01556C4EC /* NSString+LKLocalStr.h */,
+				CD10FED32FA66CF9C3222AF0E5B7C2F0 /* NSString+LKLocalStr.m */,
+				FE931B21AA2E4AF9F948B074AC1EEC8B /* UIColor+LKColor.h */,
+				D8008D7F8AEF669C9E34D776E5C0EAB0 /* UIColor+LKColor.m */,
+				7369EC996246176848A0A34C115A89FF /* UINavigationBar+LK.h */,
+				6C6F05A92CABC9147224FCCC87F9BABC /* UINavigationBar+LK.m */,
+				8C3DC49CBF6FC9FB4D51527FE4CC7E47 /* UIView+LKGestureListener.h */,
+				F6C354FB471490013566630640B10920 /* UIView+LKGestureListener.m */,
+				C5D0551F6AC52B6ED3AE1B61FA41FC38 /* Support Files */,
+			);
+			name = LemonKit;
+			path = LemonKit;
+			sourceTree = "<group>";
+		};
+		A1E8595E6623234E8DB7A600A10CD5AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61566D22755A1592D20D85422F99B30E /* Pods-LemonMix */,
+				E16E693940862BB3F7B1558C2451F81E /* Pods-LemonMixSamples */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5D0551F6AC52B6ED3AE1B61FA41FC38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81A9EBFA16ACF3EEDEC3D4B0DF80DD01 /* LemonKit.xcconfig */,
+				50D3E8D31A12089017C80563970A1633 /* LemonKit-dummy.m */,
+				1A0C0EB8C5B9FBCF04ACEE52F9E8246A /* LemonKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LemonKit";
+			sourceTree = "<group>";
+		};
+		E16E693940862BB3F7B1558C2451F81E /* Pods-LemonMixSamples */ = {
+			isa = PBXGroup;
+			children = (
+				F5C2E32ABD03B035E0780F3D664FCC8B /* Pods-LemonMixSamples-acknowledgements.markdown */,
+				E635C6A7B78DF9C5997AA144BFBB6880 /* Pods-LemonMixSamples-acknowledgements.plist */,
+				215F2235CA30327F4727CCB658B41AB1 /* Pods-LemonMixSamples-dummy.m */,
+				99870A8DF455EC3FA62327B493E5E002 /* Pods-LemonMixSamples-frameworks.sh */,
+				669291DC5097CA5F9FDA6A8DC78E68D3 /* Pods-LemonMixSamples-resources.sh */,
+				10B89807F12239A27FDEBDA0F50B8938 /* Pods-LemonMixSamples.debug.xcconfig */,
+				91E821DEB01DE95C3BE0DB1872ABAD7D /* Pods-LemonMixSamples.release.xcconfig */,
+			);
+			name = "Pods-LemonMixSamples";
+			path = "Target Support Files/Pods-LemonMixSamples";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE5E317579C54259C8ECBC9C74A4171F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4368816FB4BCC60CDE2A34B6099A72BA /* LemonKit.h in Headers */,
+				7BFC4C6F1A036EDE788DB169FC19EE30 /* LKBase.h in Headers */,
+				BF402F8ACAE9F75C05430E3D5A98C69F /* LKCategory.h in Headers */,
+				92159DAEA59070381E71DC707BAA4F44 /* LKConfigTool.h in Headers */,
+				DA5880E5E57978AE257716EBF15CE249 /* LKConst.h in Headers */,
+				17F1D86E5203CEA79C396D6C8F4C9D9F /* LKCore.h in Headers */,
+				571439BB2F85495A69602FEE2DB416F3 /* LKFreeCtrl.h in Headers */,
+				E478CB45A9A2F82144537003F0F61AB3 /* LKImageConst.h in Headers */,
+				43736048D5B933A7503D516BBFB908F5 /* LKInstance.h in Headers */,
+				68116F13ABDD7BDC8F5E10346AFB21E5 /* LKLinkageCell.h in Headers */,
+				481EFC65DE098035B577A451BD275BE4 /* LKLinkageColumn.h in Headers */,
+				A0481BE18FC2935B411FE9598594672E /* LKLinkageItem.h in Headers */,
+				BEEAEABE5E6C3C9E2CEBCEB1FA90403F /* LKLinkageView.h in Headers */,
+				CD632FFACD6D8FCC9ACD81DF1E171243 /* LKLogConst.h in Headers */,
+				7EDF78529E3C69DB81C9082728FF5CFB /* LKModel.h in Headers */,
+				842FB9CC2BEECD859B9AB19E0C087D36 /* LKModule.h in Headers */,
+				FDA17D5FC5AAD239AD4FF543C5536451 /* LKNameConst.h in Headers */,
+				CCB5D8217516C0234F523A89A2D9477C /* LKSizeConst.h in Headers */,
+				45BC6384864AD623D4071F70365F467B /* LKTools.h in Headers */,
+				F1113F9A24830AA5297B183BC49C88C1 /* LKUINavigationController.h in Headers */,
+				3B21745D208E0D2704B5BA153E9F9168 /* LKUINavigationTabBarController.h in Headers */,
+				E5D7F9CBB2ACEDEC3A103E72F72D89C7 /* LKUITabBarController.h in Headers */,
+				63D5754D98A75D5B94BBC9C354061675 /* LKUIViewController.h in Headers */,
+				59D8F085721637C51EFB422C3227B555 /* LKUUIDTool.h in Headers */,
+				D380821BD92A333C7FA612273D493BD4 /* LKViewExt.h in Headers */,
+				E76E0CBDE71CFE9901DFC0728632D15D /* NSDictionary+LK.h in Headers */,
+				33D31B547C5EF3C5A2491C324F5BC0BD /* NSString+LK.h in Headers */,
+				767ED07E2297812480314F983276DF5B /* NSString+LKLocalStr.h in Headers */,
+				F9CF1F9BA0EA51CAFFB4BE545AA962DF /* UIColor+LKColor.h in Headers */,
+				4F54056F78B178DEEC2BB4831C934585 /* UINavigationBar+LK.h in Headers */,
+				CD7E920EFB21C2BCA789639FDFF467F6 /* UIView+LKGestureListener.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		322C549234A49EF692B8D684D5482A9A /* LemonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB96557AE0C1B47559ECE4F9A6E7491 /* Build configuration list for PBXNativeTarget "LemonKit" */;
+			buildPhases = (
+				6226B686579FBE53684E9EF7CC3FC37D /* Sources */,
+				3A9778375C3A0772A1DFCD6B5CA3DE01 /* Frameworks */,
+				AE5E317579C54259C8ECBC9C74A4171F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonKit;
+			productName = LemonKit;
+			productReference = C25FF0A19184178F379E85450E4D1765 /* libLemonKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3EF73E2E688103B6BB63B49950B271B0 /* Pods-LemonMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B81CEEBCAA6AE24A51571C068391700 /* Build configuration list for PBXNativeTarget "Pods-LemonMix" */;
+			buildPhases = (
+				EADE9F2A2A8948D0A8DAE699F154C9E4 /* Sources */,
+				DAF03B79C800091D2779911A97040028 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C17C4D8CA8A3354BBA57C0FB0607F9E /* PBXTargetDependency */,
+			);
+			name = "Pods-LemonMix";
+			productName = "Pods-LemonMix";
+			productReference = F882FC42CD5B61A26A6F577E2FB04D4B /* libPods-LemonMix.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84A6C0A02560A428DF3F01B398F00190 /* Pods-LemonMixSamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD491823760067E4453B1F6453C46C53 /* Build configuration list for PBXNativeTarget "Pods-LemonMixSamples" */;
+			buildPhases = (
+				317B7984B9BF9933383C3E6479904E28 /* Sources */,
+				6A1EBE57BA77BD5051CCE7ED934716B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LemonMixSamples";
+			productName = "Pods-LemonMixSamples";
+			productReference = E4D38947F2E9BE36B916673608BD10AE /* libPods-LemonMixSamples.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 71768ED8A007440844F59287EFEC3228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322C549234A49EF692B8D684D5482A9A /* LemonKit */,
+				3EF73E2E688103B6BB63B49950B271B0 /* Pods-LemonMix */,
+				84A6C0A02560A428DF3F01B398F00190 /* Pods-LemonMixSamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		317B7984B9BF9933383C3E6479904E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5075AAA9D3D1E676855694B2509C7F /* Pods-LemonMixSamples-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6226B686579FBE53684E9EF7CC3FC37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD79D6F04256EE670E8E876E13936E33 /* LemonKit-dummy.m in Sources */,
+				A27BCFBF099229C78B2E8872E13D55B9 /* LemonKit.m in Sources */,
+				EE4A892CE97A9A30AF8DC77EAAF62990 /* LKConfigTool.m in Sources */,
+				830CBD1924F54D749289075B558696C8 /* LKFreeCtrl.m in Sources */,
+				E69C369C538C32E692D1FD43860FC536 /* LKInstance.m in Sources */,
+				F66134B6F49B141731E37ACAF2D2F43C /* LKLinkageCell.m in Sources */,
+				60EE7333E675F9E4B0FB10BD1E9460FB /* LKLinkageColumn.m in Sources */,
+				990711274685AE92FB4E421AB22FBA9D /* LKLinkageItem.m in Sources */,
+				279A1C979ED9D2A11DD04AC98C720BF2 /* LKLinkageView.m in Sources */,
+				1713C9AE297FCB221578C76F71E8CCC9 /* LKUINavigationController.m in Sources */,
+				81DE6FF8317E1F1C3396039EE72A71FE /* LKUINavigationTabBarController.m in Sources */,
+				E4A7C6F76C7F972C58E7C43F3409744C /* LKUITabBarController.m in Sources */,
+				4427DA07CEBD8997154330CE6F4026D9 /* LKUIViewController.m in Sources */,
+				A779F6A15B9957D65B80F2045576AEDD /* LKUUIDTool.m in Sources */,
+				54E40E9E9D3839608CA0C42FCC6545ED /* NSDictionary+LK.m in Sources */,
+				75A64D78971F2A846A32F1DB17903734 /* NSString+LK.m in Sources */,
+				06C52C512BD5591A05AF82DBBB9A15CE /* NSString+LKLocalStr.m in Sources */,
+				97CB456B98A2A493213BDCB30A90C531 /* UIColor+LKColor.m in Sources */,
+				BCF58B6C672A0CC4D9372FA3A2DB6CDC /* UINavigationBar+LK.m in Sources */,
+				492F7083CD5DC47E57E3258B479C3DEE /* UIView+LKGestureListener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADE9F2A2A8948D0A8DAE699F154C9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE545D08AB5BF6264B47348F40B9E859 /* Pods-LemonMix-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C17C4D8CA8A3354BBA57C0FB0607F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LemonKit;
+			target = 322C549234A49EF692B8D684D5482A9A /* LemonKit */;
+			targetProxy = CB0193A45A055E2B3A48070E071D8185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0205283B7DB6D10AB4EE0EB9E6F7333A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B89807F12239A27FDEBDA0F50B8938 /* Pods-LemonMixSamples.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0BC294A7AFD5211378D9FA4331D60810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E821DEB01DE95C3BE0DB1872ABAD7D /* Pods-LemonMixSamples.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2963E2C7125814B884C0A577CA4BA14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A9EBFA16ACF3EEDEC3D4B0DF80DD01 /* LemonKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LemonKit/LemonKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3EE3CE325A670A8ABE8E28DB1FA7124D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A9EBFA16ACF3EEDEC3D4B0DF80DD01 /* LemonKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LemonKit/LemonKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		834931292FAD70C9301C39A1B7035663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F45DC005ACE9095EC5B25E85FAFD696 /* Pods-LemonMix.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B770BF325FC8281A9640A6D144758F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8477673DAB2C22BAE5A30967D9D075AA /* Pods-LemonMix.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B81CEEBCAA6AE24A51571C068391700 /* Build configuration list for PBXNativeTarget "Pods-LemonMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834931292FAD70C9301C39A1B7035663 /* Debug */,
+				F8B770BF325FC8281A9640A6D144758F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB96557AE0C1B47559ECE4F9A6E7491 /* Build configuration list for PBXNativeTarget "LemonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE3CE325A670A8ABE8E28DB1FA7124D /* Debug */,
+				2963E2C7125814B884C0A577CA4BA14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD491823760067E4453B1F6453C46C53 /* Build configuration list for PBXNativeTarget "Pods-LemonMixSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0205283B7DB6D10AB4EE0EB9E6F7333A /* Debug */,
+				0BC294A7AFD5211378D9FA4331D60810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

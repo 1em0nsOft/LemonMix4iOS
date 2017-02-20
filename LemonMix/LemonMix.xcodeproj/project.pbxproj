@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DC3DB76CDF755682700DC28 /* libPods-LemonMixSamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CFD6D2BE35F9D15958D56F /* libPods-LemonMixSamples.a */; };
+		EA94FF331E5ADB5D00AFCD6A /* LemonMix.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF321E5ADB5D00AFCD6A /* LemonMix.m */; };
+		EA94FF341E5ADB5D00AFCD6A /* LemonMix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA94FF311E5ADB5D00AFCD6A /* LemonMix.h */; };
+		EA94FF421E5ADB7A00AFCD6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF411E5ADB7A00AFCD6A /* main.m */; };
+		EA94FF451E5ADB7A00AFCD6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF441E5ADB7A00AFCD6A /* AppDelegate.m */; };
+		EA94FF481E5ADB7A00AFCD6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF471E5ADB7A00AFCD6A /* ViewController.m */; };
+		EA94FF4B1E5ADB7A00AFCD6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA94FF491E5ADB7A00AFCD6A /* Main.storyboard */; };
+		EA94FF4D1E5ADB7A00AFCD6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA94FF4C1E5ADB7A00AFCD6A /* Assets.xcassets */; };
+		EA94FF501E5ADB7A00AFCD6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA94FF4E1E5ADB7A00AFCD6A /* LaunchScreen.storyboard */; };
+		EA94FF571E5ADC5F00AFCD6A /* LMWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF561E5ADC5F00AFCD6A /* LMWebView.m */; };
+		EA94FF5A1E5ADC9100AFCD6A /* LMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF591E5ADC9100AFCD6A /* LMWebViewController.m */; };
+		F923041D881EA3BC9DF0E211 /* libPods-LemonMix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF782F563720D7F75D89780F /* libPods-LemonMix.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA94FF2C1E5ADB5D00AFCD6A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EA94FF341E5ADB5D00AFCD6A /* LemonMix.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32CFD6D2BE35F9D15958D56F /* libPods-LemonMixSamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LemonMixSamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CCE443016904E26F7BB764 /* Pods-LemonMix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonMix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemonMix/Pods-LemonMix.debug.xcconfig"; sourceTree = "<group>"; };
+		B237ABE3162DDAEEE808F233 /* Pods-LemonMixSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonMixSamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemonMixSamples/Pods-LemonMixSamples.debug.xcconfig"; sourceTree = "<group>"; };
+		BCC1DD9A31A3C4228EAA0C79 /* Pods-LemonMix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonMix.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemonMix/Pods-LemonMix.release.xcconfig"; sourceTree = "<group>"; };
+		CBA2CF9312283DB466C6DF94 /* Pods-LemonMixSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonMixSamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemonMixSamples/Pods-LemonMixSamples.release.xcconfig"; sourceTree = "<group>"; };
+		EA94FF2E1E5ADB5D00AFCD6A /* libLemonMix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLemonMix.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA94FF311E5ADB5D00AFCD6A /* LemonMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LemonMix.h; sourceTree = "<group>"; };
+		EA94FF321E5ADB5D00AFCD6A /* LemonMix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LemonMix.m; sourceTree = "<group>"; };
+		EA94FF3E1E5ADB7A00AFCD6A /* LemonMixSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonMixSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA94FF411E5ADB7A00AFCD6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA94FF431E5ADB7A00AFCD6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA94FF441E5ADB7A00AFCD6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA94FF461E5ADB7A00AFCD6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA94FF471E5ADB7A00AFCD6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA94FF4A1E5ADB7A00AFCD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA94FF4C1E5ADB7A00AFCD6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA94FF4F1E5ADB7A00AFCD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA94FF511E5ADB7A00AFCD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA94FF551E5ADC5F00AFCD6A /* LMWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMWebView.h; sourceTree = "<group>"; };
+		EA94FF561E5ADC5F00AFCD6A /* LMWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMWebView.m; sourceTree = "<group>"; };
+		EA94FF581E5ADC9100AFCD6A /* LMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMWebViewController.h; sourceTree = "<group>"; };
+		EA94FF591E5ADC9100AFCD6A /* LMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMWebViewController.m; sourceTree = "<group>"; };
+		FF782F563720D7F75D89780F /* libPods-LemonMix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LemonMix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA94FF2B1E5ADB5D00AFCD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F923041D881EA3BC9DF0E211 /* libPods-LemonMix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA94FF3B1E5ADB7A00AFCD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC3DB76CDF755682700DC28 /* libPods-LemonMixSamples.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5663AE6D7EC271AE7D99B403 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF782F563720D7F75D89780F /* libPods-LemonMix.a */,
+				32CFD6D2BE35F9D15958D56F /* libPods-LemonMixSamples.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB68DD87CCE590BBC8032EF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7CCE443016904E26F7BB764 /* Pods-LemonMix.debug.xcconfig */,
+				BCC1DD9A31A3C4228EAA0C79 /* Pods-LemonMix.release.xcconfig */,
+				B237ABE3162DDAEEE808F233 /* Pods-LemonMixSamples.debug.xcconfig */,
+				CBA2CF9312283DB466C6DF94 /* Pods-LemonMixSamples.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA94FF251E5ADB5D00AFCD6A = {
+			isa = PBXGroup;
+			children = (
+				EA94FF301E5ADB5D00AFCD6A /* LemonMix */,
+				EA94FF3F1E5ADB7A00AFCD6A /* LemonMixSamples */,
+				EA94FF2F1E5ADB5D00AFCD6A /* Products */,
+				CB68DD87CCE590BBC8032EF5 /* Pods */,
+				5663AE6D7EC271AE7D99B403 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA94FF2F1E5ADB5D00AFCD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA94FF2E1E5ADB5D00AFCD6A /* libLemonMix.a */,
+				EA94FF3E1E5ADB7A00AFCD6A /* LemonMixSamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA94FF301E5ADB5D00AFCD6A /* LemonMix */ = {
+			isa = PBXGroup;
+			children = (
+				EA94FF311E5ADB5D00AFCD6A /* LemonMix.h */,
+				EA94FF321E5ADB5D00AFCD6A /* LemonMix.m */,
+				EA94FF551E5ADC5F00AFCD6A /* LMWebView.h */,
+				EA94FF561E5ADC5F00AFCD6A /* LMWebView.m */,
+				EA94FF581E5ADC9100AFCD6A /* LMWebViewController.h */,
+				EA94FF591E5ADC9100AFCD6A /* LMWebViewController.m */,
+			);
+			path = LemonMix;
+			sourceTree = "<group>";
+		};
+		EA94FF3F1E5ADB7A00AFCD6A /* LemonMixSamples */ = {
+			isa = PBXGroup;
+			children = (
+				EA94FF431E5ADB7A00AFCD6A /* AppDelegate.h */,
+				EA94FF441E5ADB7A00AFCD6A /* AppDelegate.m */,
+				EA94FF461E5ADB7A00AFCD6A /* ViewController.h */,
+				EA94FF471E5ADB7A00AFCD6A /* ViewController.m */,
+				EA94FF491E5ADB7A00AFCD6A /* Main.storyboard */,
+				EA94FF4C1E5ADB7A00AFCD6A /* Assets.xcassets */,
+				EA94FF4E1E5ADB7A00AFCD6A /* LaunchScreen.storyboard */,
+				EA94FF511E5ADB7A00AFCD6A /* Info.plist */,
+				EA94FF401E5ADB7A00AFCD6A /* Supporting Files */,
+			);
+			path = LemonMixSamples;
+			sourceTree = "<group>";
+		};
+		EA94FF401E5ADB7A00AFCD6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA94FF411E5ADB7A00AFCD6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA94FF2D1E5ADB5D00AFCD6A /* LemonMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA94FF371E5ADB5D00AFCD6A /* Build configuration list for PBXNativeTarget "LemonMix" */;
+			buildPhases = (
+				977607808B5600320C48A674 /* [CP] Check Pods Manifest.lock */,
+				EA94FF2A1E5ADB5D00AFCD6A /* Sources */,
+				EA94FF2B1E5ADB5D00AFCD6A /* Frameworks */,
+				EA94FF2C1E5ADB5D00AFCD6A /* CopyFiles */,
+				C505BE802C06003F00E8ACD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonMix;
+			productName = LemonMix;
+			productReference = EA94FF2E1E5ADB5D00AFCD6A /* libLemonMix.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA94FF3D1E5ADB7A00AFCD6A /* LemonMixSamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA94FF521E5ADB7A00AFCD6A /* Build configuration list for PBXNativeTarget "LemonMixSamples" */;
+			buildPhases = (
+				F74075285FED8E63DC2549D5 /* [CP] Check Pods Manifest.lock */,
+				EA94FF3A1E5ADB7A00AFCD6A /* Sources */,
+				EA94FF3B1E5ADB7A00AFCD6A /* Frameworks */,
+				EA94FF3C1E5ADB7A00AFCD6A /* Resources */,
+				C9D3707AFC0AACDF27F66838 /* [CP] Embed Pods Frameworks */,
+				238680EF80B3EEAB3F1A05EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonMixSamples;
+			productName = LemonMixSamples;
+			productReference = EA94FF3E1E5ADB7A00AFCD6A /* LemonMixSamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA94FF261E5ADB5D00AFCD6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lemonsoft;
+				TargetAttributes = {
+					EA94FF2D1E5ADB5D00AFCD6A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L77U8HVTZN;
+						ProvisioningStyle = Automatic;
+					};
+					EA94FF3D1E5ADB7A00AFCD6A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L77U8HVTZN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA94FF291E5ADB5D00AFCD6A /* Build configuration list for PBXProject "LemonMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA94FF251E5ADB5D00AFCD6A;
+			productRefGroup = EA94FF2F1E5ADB5D00AFCD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA94FF2D1E5ADB5D00AFCD6A /* LemonMix */,
+				EA94FF3D1E5ADB7A00AFCD6A /* LemonMixSamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA94FF3C1E5ADB7A00AFCD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA94FF501E5ADB7A00AFCD6A /* LaunchScreen.storyboard in Resources */,
+				EA94FF4D1E5ADB7A00AFCD6A /* Assets.xcassets in Resources */,
+				EA94FF4B1E5ADB7A00AFCD6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		238680EF80B3EEAB3F1A05EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LemonMixSamples/Pods-LemonMixSamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977607808B5600320C48A674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C505BE802C06003F00E8ACD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LemonMix/Pods-LemonMix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D3707AFC0AACDF27F66838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LemonMixSamples/Pods-LemonMixSamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F74075285FED8E63DC2549D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA94FF2A1E5ADB5D00AFCD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA94FF571E5ADC5F00AFCD6A /* LMWebView.m in Sources */,
+				EA94FF5A1E5ADC9100AFCD6A /* LMWebViewController.m in Sources */,
+				EA94FF331E5ADB5D00AFCD6A /* LemonMix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA94FF3A1E5ADB7A00AFCD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA94FF481E5ADB7A00AFCD6A /* ViewController.m in Sources */,
+				EA94FF451E5ADB7A00AFCD6A /* AppDelegate.m in Sources */,
+				EA94FF421E5ADB7A00AFCD6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA94FF491E5ADB7A00AFCD6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA94FF4A1E5ADB7A00AFCD6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA94FF4E1E5ADB7A00AFCD6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA94FF4F1E5ADB7A00AFCD6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA94FF351E5ADB5D00AFCD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA94FF361E5ADB5D00AFCD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA94FF381E5ADB5D00AFCD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CCE443016904E26F7BB764 /* Pods-LemonMix.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L77U8HVTZN;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA94FF391E5ADB5D00AFCD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC1DD9A31A3C4228EAA0C79 /* Pods-LemonMix.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L77U8HVTZN;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EA94FF531E5ADB7A00AFCD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B237ABE3162DDAEEE808F233 /* Pods-LemonMixSamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L77U8HVTZN;
+				INFOPLIST_FILE = LemonMixSamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lemonsoft.LemonMixSamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA94FF541E5ADB7A00AFCD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA2CF9312283DB466C6DF94 /* Pods-LemonMixSamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L77U8HVTZN;
+				INFOPLIST_FILE = LemonMixSamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lemonsoft.LemonMixSamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA94FF291E5ADB5D00AFCD6A /* Build configuration list for PBXProject "LemonMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA94FF351E5ADB5D00AFCD6A /* Debug */,
+				EA94FF361E5ADB5D00AFCD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA94FF371E5ADB5D00AFCD6A /* Build configuration list for PBXNativeTarget "LemonMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA94FF381E5ADB5D00AFCD6A /* Debug */,
+				EA94FF391E5ADB5D00AFCD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA94FF521E5ADB7A00AFCD6A /* Build configuration list for PBXNativeTarget "LemonMixSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA94FF531E5ADB7A00AFCD6A /* Debug */,
+				EA94FF541E5ADB7A00AFCD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA94FF261E5ADB5D00AFCD6A /* Project object */;
+}
