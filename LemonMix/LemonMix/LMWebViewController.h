@@ -7,7 +7,13 @@
 //
 
 #import <LemonKit/LemonKit.h>
+#import "LMWebView.h"
 
 @interface LMWebViewController : LKUIViewController
+
+/**
+ 根浏览器控件
+ */
+@property (nonatomic,readonly,strong) LMWebView *webView;
 
 @end

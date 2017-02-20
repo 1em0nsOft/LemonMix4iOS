@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		6DC3DB76CDF755682700DC28 /* libPods-LemonMixSamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CFD6D2BE35F9D15958D56F /* libPods-LemonMixSamples.a */; };
+		EA836BEE1E5ADFC9008F0C84 /* libLemonMix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA94FF2E1E5ADB5D00AFCD6A /* libLemonMix.a */; };
+		EA836BF61E5AED3E008F0C84 /* LKApp.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA836BF31E5AED3E008F0C84 /* LKApp.plist */; };
+		EA836BF71E5AED3E008F0C84 /* LKStringsFileMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA836BF41E5AED3E008F0C84 /* LKStringsFileMapping.plist */; };
+		EA836BF81E5AED3E008F0C84 /* LKViewControllerMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA836BF51E5AED3E008F0C84 /* LKViewControllerMapping.plist */; };
+		EA836BFE1E5AEDD0008F0C84 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA836BFB1E5AEDD0008F0C84 /* MainViewController.m */; };
+		EA836BFF1E5AEDD0008F0C84 /* StarterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA836BFD1E5AEDD0008F0C84 /* StarterViewController.m */; };
 		EA94FF331E5ADB5D00AFCD6A /* LemonMix.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF321E5ADB5D00AFCD6A /* LemonMix.m */; };
 		EA94FF341E5ADB5D00AFCD6A /* LemonMix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA94FF311E5ADB5D00AFCD6A /* LemonMix.h */; };
 		EA94FF421E5ADB7A00AFCD6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF411E5ADB7A00AFCD6A /* main.m */; };
 		EA94FF451E5ADB7A00AFCD6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF441E5ADB7A00AFCD6A /* AppDelegate.m */; };
-		EA94FF481E5ADB7A00AFCD6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF471E5ADB7A00AFCD6A /* ViewController.m */; };
-		EA94FF4B1E5ADB7A00AFCD6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA94FF491E5ADB7A00AFCD6A /* Main.storyboard */; };
 		EA94FF4D1E5ADB7A00AFCD6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA94FF4C1E5ADB7A00AFCD6A /* Assets.xcassets */; };
 		EA94FF501E5ADB7A00AFCD6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA94FF4E1E5ADB7A00AFCD6A /* LaunchScreen.storyboard */; };
 		EA94FF571E5ADC5F00AFCD6A /* LMWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF561E5ADC5F00AFCD6A /* LMWebView.m */; };
 		EA94FF5A1E5ADC9100AFCD6A /* LMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94FF591E5ADC9100AFCD6A /* LMWebViewController.m */; };
 		F923041D881EA3BC9DF0E211 /* libPods-LemonMix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF782F563720D7F75D89780F /* libPods-LemonMix.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA836BEF1E5AE47C008F0C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA94FF261E5ADB5D00AFCD6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA94FF2D1E5ADB5D00AFCD6A;
+			remoteInfo = LemonMix;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EA94FF2C1E5ADB5D00AFCD6A /* CopyFiles */ = {
@@ -40,6 +54,14 @@
 		B237ABE3162DDAEEE808F233 /* Pods-LemonMixSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonMixSamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemonMixSamples/Pods-LemonMixSamples.debug.xcconfig"; sourceTree = "<group>"; };
 		BCC1DD9A31A3C4228EAA0C79 /* Pods-LemonMix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonMix.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemonMix/Pods-LemonMix.release.xcconfig"; sourceTree = "<group>"; };
 		CBA2CF9312283DB466C6DF94 /* Pods-LemonMixSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonMixSamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemonMixSamples/Pods-LemonMixSamples.release.xcconfig"; sourceTree = "<group>"; };
+		EA836BF31E5AED3E008F0C84 /* LKApp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LKApp.plist; sourceTree = "<group>"; };
+		EA836BF41E5AED3E008F0C84 /* LKStringsFileMapping.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LKStringsFileMapping.plist; sourceTree = "<group>"; };
+		EA836BF51E5AED3E008F0C84 /* LKViewControllerMapping.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LKViewControllerMapping.plist; sourceTree = "<group>"; };
+		EA836BFA1E5AEDD0008F0C84 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EA836BFB1E5AEDD0008F0C84 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EA836BFC1E5AEDD0008F0C84 /* StarterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarterViewController.h; sourceTree = "<group>"; };
+		EA836BFD1E5AEDD0008F0C84 /* StarterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarterViewController.m; sourceTree = "<group>"; };
+		EA836C001E5AEE98008F0C84 /* Common.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.pch; sourceTree = "<group>"; };
 		EA94FF2E1E5ADB5D00AFCD6A /* libLemonMix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLemonMix.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA94FF311E5ADB5D00AFCD6A /* LemonMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LemonMix.h; sourceTree = "<group>"; };
 		EA94FF321E5ADB5D00AFCD6A /* LemonMix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LemonMix.m; sourceTree = "<group>"; };
@@ -47,9 +69,6 @@
 		EA94FF411E5ADB7A00AFCD6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA94FF431E5ADB7A00AFCD6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA94FF441E5ADB7A00AFCD6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA94FF461E5ADB7A00AFCD6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA94FF471E5ADB7A00AFCD6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EA94FF4A1E5ADB7A00AFCD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA94FF4C1E5ADB7A00AFCD6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA94FF4F1E5ADB7A00AFCD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA94FF511E5ADB7A00AFCD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA836BEE1E5ADFC9008F0C84 /* libLemonMix.a in Frameworks */,
 				6DC3DB76CDF755682700DC28 /* libPods-LemonMixSamples.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +118,43 @@
 				CBA2CF9312283DB466C6DF94 /* Pods-LemonMixSamples.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA836BE71E5ADF87008F0C84 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA836BF91E5AEDD0008F0C84 /* Main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EA836BF11E5AED3E008F0C84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA836BF21E5AED3E008F0C84 /* PropertyList */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA836BF21E5AED3E008F0C84 /* PropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				EA836BF31E5AED3E008F0C84 /* LKApp.plist */,
+				EA836BF41E5AED3E008F0C84 /* LKStringsFileMapping.plist */,
+				EA836BF51E5AED3E008F0C84 /* LKViewControllerMapping.plist */,
+			);
+			path = PropertyList;
+			sourceTree = "<group>";
+		};
+		EA836BF91E5AEDD0008F0C84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA836BFA1E5AEDD0008F0C84 /* MainViewController.h */,
+				EA836BFB1E5AEDD0008F0C84 /* MainViewController.m */,
+				EA836BFC1E5AEDD0008F0C84 /* StarterViewController.h */,
+				EA836BFD1E5AEDD0008F0C84 /* StarterViewController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		EA94FF251E5ADB5D00AFCD6A = {
@@ -136,15 +193,15 @@
 		EA94FF3F1E5ADB7A00AFCD6A /* LemonMixSamples */ = {
 			isa = PBXGroup;
 			children = (
+				EA836BF11E5AED3E008F0C84 /* Resources */,
+				EA836BE71E5ADF87008F0C84 /* ViewController */,
 				EA94FF431E5ADB7A00AFCD6A /* AppDelegate.h */,
 				EA94FF441E5ADB7A00AFCD6A /* AppDelegate.m */,
-				EA94FF461E5ADB7A00AFCD6A /* ViewController.h */,
-				EA94FF471E5ADB7A00AFCD6A /* ViewController.m */,
-				EA94FF491E5ADB7A00AFCD6A /* Main.storyboard */,
 				EA94FF4C1E5ADB7A00AFCD6A /* Assets.xcassets */,
 				EA94FF4E1E5ADB7A00AFCD6A /* LaunchScreen.storyboard */,
 				EA94FF511E5ADB7A00AFCD6A /* Info.plist */,
 				EA94FF401E5ADB7A00AFCD6A /* Supporting Files */,
+				EA836C001E5AEE98008F0C84 /* Common.pch */,
 			);
 			path = LemonMixSamples;
 			sourceTree = "<group>";
@@ -193,6 +250,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				EA836BF01E5AE47C008F0C84 /* PBXTargetDependency */,
 			);
 			name = LemonMixSamples;
 			productName = LemonMixSamples;
@@ -245,8 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA94FF501E5ADB7A00AFCD6A /* LaunchScreen.storyboard in Resources */,
+				EA836BF71E5AED3E008F0C84 /* LKStringsFileMapping.plist in Resources */,
+				EA836BF81E5AED3E008F0C84 /* LKViewControllerMapping.plist in Resources */,
+				EA836BF61E5AED3E008F0C84 /* LKApp.plist in Resources */,
 				EA94FF4D1E5ADB7A00AFCD6A /* Assets.xcassets in Resources */,
-				EA94FF4B1E5ADB7A00AFCD6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,23 +405,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA94FF481E5ADB7A00AFCD6A /* ViewController.m in Sources */,
 				EA94FF451E5ADB7A00AFCD6A /* AppDelegate.m in Sources */,
+				EA836BFE1E5AEDD0008F0C84 /* MainViewController.m in Sources */,
+				EA836BFF1E5AEDD0008F0C84 /* StarterViewController.m in Sources */,
 				EA94FF421E5ADB7A00AFCD6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		EA94FF491E5ADB7A00AFCD6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA94FF4A1E5ADB7A00AFCD6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		EA836BF01E5AE47C008F0C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA94FF2D1E5ADB5D00AFCD6A /* LemonMix */;
+			targetProxy = EA836BEF1E5AE47C008F0C84 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		EA94FF4E1E5ADB7A00AFCD6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -454,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -488,8 +549,12 @@
 			baseConfigurationReference = B237ABE3162DDAEEE808F233 /* Pods-LemonMixSamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L77U8HVTZN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LemonMixSamples/Common.pch;
 				INFOPLIST_FILE = LemonMixSamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.lemonsoft.LemonMixSamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,8 +567,12 @@
 			baseConfigurationReference = CBA2CF9312283DB466C6DF94 /* Pods-LemonMixSamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L77U8HVTZN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LemonMixSamples/Common.pch;
 				INFOPLIST_FILE = LemonMixSamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.lemonsoft.LemonMixSamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";

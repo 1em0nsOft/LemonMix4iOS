@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "StarterViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    self.window.rootViewController = [[LKUINavigationController alloc] initWithRootViewController:LKInstanceFindViewControllerWithKey(@"m_starter")];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
