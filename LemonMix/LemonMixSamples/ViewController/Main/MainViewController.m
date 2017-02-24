@@ -15,7 +15,7 @@
 @implementation MainViewController
 
 - (void)firstViewDidAppear:(BOOL)animated{
-    [self.webView loadRequest: [NSURLRequest requestWithURL: [NSURL URLWithString: @"http://www.baidu.com"]]];
+    [self.webView loadRequest: [NSURLRequest requestWithURL: [NSURL URLWithString: @"http://www.lemonsoft.net"]]];
 }
 
 @end
