@@ -8,14 +8,22 @@
 
 #import "MainViewController.h"
 
-@interface MainViewController ()
+@interface MainViewController () <UIScrollViewDelegate>
 
 @end
 
-@implementation MainViewController
+@implementation MainViewController 
 
 - (void)firstViewDidAppear:(BOOL)animated{
-    [self.webView loadRequest: [NSURLRequest requestWithURL: [NSURL URLWithString: @"http://www.lemonsoft.net"]]];
+    [self.webView loadRequest: [NSURLRequest requestWithURL: [NSURL URLWithString: @"http://www.baidu.com"]]];
+    UIView *v = [[UIView alloc] initWithFrame: CGRectMake(0, -20, 20, 20)];
+    v.backgroundColor = [UIColor redColor];
+    [self.webView.scrollView addSubview:v];
+//    self.webView.scrollView.delegate = self;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    NSLog(@"woc");
 }
 
 @end
