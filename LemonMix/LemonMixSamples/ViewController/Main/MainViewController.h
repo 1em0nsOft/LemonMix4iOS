@@ -6,8 +6,11 @@
 //  Copyright © 2017年 Lemonsoft. All rights reserved.
 //
 
-#import "LMWebViewController.h"
+#import <LemonKit/LemonKit.h>
+#import "LMWebView.h"
 
-@interface MainViewController : LMWebViewController
+@interface MainViewController : LKUIViewController
+
+@property (nonatomic,strong)LMWebView *webView;
 
 @end
